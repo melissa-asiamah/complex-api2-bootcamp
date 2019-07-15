@@ -1,22 +1,16 @@
-# 📊 Project: Complex API 2
+# Complex Lucky Recipe Generator
+This is a small app that returns a random recipe depending on wether not you get a random yes or no from the website. A yes = free random recipe, a no = a next time try again. Try your luck!
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
 
-### How to submit your code for review:
+![alt tag](http://tinypic.com/m/kdwiud/4)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML, CSS, JavaScript, API
+
+I made this by using two APIs. One from a yes or no radomized API site and another from theMealDB.com to produces random recipes depending on a yes or no response from the first API. In order to match up a recipe appearing dependent on the first API a conditional statement needed to be made where it would match a yes or no to the property within the JSON file. I "hid" the recipe if a no was returned with display: none; and it made it reappear with targetting the element with a style object modification,
+
+
+## Lessons Learned:
+
+Through building this project, I learned how APIs work. I learned about JSON and how JSON is basically a giant array that holds a bunch of objects with key-value pairs you can access using a combination of dot notation or optional brackets to select which index you need from the JSON array. To loop through the array to select multiple elements of key-value pairs sometimes it is necessary to loop through them with a forEach loop. I learn how to append newly created elements with the appendChild method to add to the DOM to make new elements appear in my HTML.
