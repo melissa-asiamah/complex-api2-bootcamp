@@ -6,6 +6,8 @@ This is a small app that returns a random recipe depending on wether not you get
 
 ## How It's Made:
 
+**See live preview here:** https://jovial-liskov-bf0648.netlify.com/
+
 **Tech used:** HTML, CSS, JavaScript, API
 
 I made this by using two APIs. One from a yes or no radomized API site and another from theMealDB.com to produces random recipes depending on a yes or no response from the first API. In order to match up a recipe appearing dependent on the first API a conditional statement needed to be made where it would match a yes or no to the property within the JSON file. I "hid" the recipe if a no was returned with display: none; and it made it reappear with targetting the element with a style object modification,
