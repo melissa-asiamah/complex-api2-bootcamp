@@ -2,7 +2,7 @@
 This is a small app that returns a random recipe depending on wether not you get a random yes or no from the website. A yes = free random recipe, a no = a next time try again. Try your luck!
 
 
-![alt tag](http://tinypic.com/m/kdwiud/4)
+![alt tag](http://i66.tinypic.com/n2j0bl.jpg)
 
 ## How It's Made:
 
